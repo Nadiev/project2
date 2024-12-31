@@ -1,0 +1,206 @@
+<html>
+    <body>
+
+        <head>
+        <title>form</title>
+        <link rel="stylesheet" href="form.css">
+        </head>
+
+
+        <h1>Form Pendaftaran Mahasiswa Baru</h1>
+         <div>
+
+             <h2>Data Diri</h2>
+     
+             <table>
+                 <tbody>
+                     <tr>
+                         <td>Nama Lengkap:</td>
+                         <td>Nomor Identitas (NIK):</td>
+                     </tr>
+             
+                     <tr>
+                         <td><input type="text" placeholder="Masukan Nama Lengkap"></td>
+                         <td><input type="text" placeholder="Masukan Nomor (NIK)"></td>
+                     </tr>
+     
+     
+                     <tr>
+                         <td>Tempat Lahir:</td>
+                         <td>Tanggal Lahir:</td>
+                         <td>Jenis Kelamin:</td>
+                     </tr>
+     
+                     <tr>
+                         <td><input type="text" placeholder="Masukan Tempat Lahir"></td>
+                         <td><input type="date" placeholder="dd/mm/yyyy"></td>
+                         <td><select name="Kelamin" id="">
+                             <option value="">Pilih</option>
+                             <option value="Laki-Laki">Laki-Laki</option>
+                             <option value="Perempuan">Perempuan</option>
+                         </select></td>
+                     </tr>
+
+                     <tr>
+                       <td>kewarganegaraan:</td>
+                       <td>Agama:</td>
+                       <td>Nama Ibu Kandung:</td>
+                     </tr>
+
+                     <tr>
+                        <td><select name="kewarganegaraan" id="">
+                            <option value="">Pilih</option>
+                            <option value="WNI">WNI</option>
+                            <option value="WNA">WNA</option>
+                        </select></td>
+                        <td><select name="Agama" id="">
+                            <option value="">Pilih</option>
+                            <option value="Islam">Islam</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="Budha">Budha</option>
+                            <option value="Hindu">Hindu</option>
+                            <td><input type="text" placeholder="Masukan Nama Ibu Kandung"></td>
+                        </select></td>
+                     </tr>
+
+                     <tr>
+                        <td>Email:</td>
+                        <td>No Telp:</td>
+                     </tr>
+                     
+                     <tr>
+                        <td><input type="text" placeholder="Masukan Email"></td>
+                        <td><input type="number" placeholder="Masukan No Telp"></td>
+                     </tr>
+
+                 </tbody>
+             </table>
+         </div>   
+
+         <div>
+
+         <h2>Data Alamat Asal</h2>
+
+         <table>
+            <tbody>
+
+            <tr>
+                <td>Alamat:</td>
+                <td>Kode Pos:</td>
+            </tr>
+
+            <tr>
+                <td><textarea name="" id="Alamat"></textarea></td>
+                <td><input type="text" placeholder="Kode Pos"></td>
+            </tr>
+
+            <tr>
+                <td>Provinsi:</td>
+                <td>Kabupaten:</td>
+                <td>Kecamatan:</td>
+            </tr>
+
+            <tr>
+                <td><select name="Provinsi" id="">
+                    <option value="">Pilih</option>
+                    <option value="Aceh">Aceh</option>
+                    <option value="Bali">Bali</option>
+                    <option value="Banten">Banten</option>
+                    <option value="DKI Jakarta">DKI Jakarta</option>
+                    <option value="Jawa Barat">Jawa Barat</option>
+                    <option value="Jawa Tengah">Jawa Tengah</option>
+                    <option value="Jawa Timur">Jawa Timur</option>
+                </select></td>
+                <td><select name="Kabupaten" id="">
+                    <option value="">Pilih</option>
+                    <option value="DKI Jakarta">DKI Jakarta</option>
+                    <option value="Jawa Barat">Jawa Barat</option>
+                </select></td>
+                <td><select name="Kecamatan" id="">
+                    <option value="">Pilih</option>
+                    <option value="Bogor Tengah">Bogor Tengah</option>
+                    <option value="Bogor Barat">Bogor Barat</option>
+                    <option value="Bogor Timur">Bogor Timur</option>
+                    <option value="Bogor Selatan">Bogor Selatan</option>
+                    <option value="Bogor Utara">Bogor Utara</option>
+                    <option value="Kab. Kepulauan Seribu">Kab. Kepulauan Seribu</option>
+                    <option value="Kota Jakarta Barat">Kota Jakarta Barat</option>
+                    <option value="Kota Jakarta Pusat">Kota Jakarta Pusat</option>
+                    <option value="Kota Jakarta Selatan">Kota Jakarta Selatan</option>
+                    <option value="Kota Jakarta Timur">Kota Jakarta Timur</option>
+                    <option value="Kota Jakarta Utara">Kota Jakarta Utara</option>
+                </select></td>
+            </tr>
+
+            </tbody>
+         </table>
+
+        </div>
+
+        <div>
+
+            <h2>Data Pendidikan</h2>
+
+            <table>
+                <tbody>
+
+                <tr>
+                    <td>Pendidikan Terakhir:</td>
+                    <td>Nama Sekolah:</td>
+                    <td>Rata-rata Nilai Rapor Kelas 12:</td>
+                </tr>
+
+                <tr>
+                    <td><select name="Pendidikan Terakhir" id="">
+                        <option value="">Pilih</option>
+                        <option value="SMA-IPA">SMA-IPA</option>
+                        <option value="SMA-IPS">SMA-IPS</option>
+                    </select></td>
+                    <td><input type="text" placeholder="Masukan Nama Sekolah"></td>
+                    <td><input type="text" placeholder="Masukan Rata-rata Rapor"></td>
+                </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+        <div>
+
+            <h2>Pilih Program Studi</h2>
+
+            <table>
+                <tbody>
+
+                    <tr>
+                        <td>Pilih Program Studi 1:</td>
+                        <td>Pilih Program Studi 2:</td>
+                    </tr>
+
+                    <tr>
+                        <td><select name="Pilih Program Studi 1" id="">
+                            <option value="">Pilih</option>
+                            <option value="D3 - Teknik Komputer">D3 - Teknik Komputer</option>
+                            <option value="D3 - Ilmu Komputer">D3 - Ilmu Komputer</option>
+                        </select></td>
+                        <td><select name="Pilih Program Studi 2" id="">
+                            <option value="">Pilih</option>
+                            <option value="D3 - Teknik Komputer">D3 - Teknik Komputer</option>
+                            <option value="D3 - Ilmu Komputer">D3 - Ilmu Komputer</option>
+                        </select></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <a href="" style="margin-left: 15px;">
+            <button type="button" >Daftar</button>
+        </a>
+
+        <a href="">
+            <button type="reset">Reset</button>
+        </a>
+
+    </body>
+</html>
